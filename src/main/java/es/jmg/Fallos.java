@@ -21,7 +21,7 @@ public class Fallos {
         try{
             matriz[200] = 120;
         } 
-        // ArrayIndexOutOfBoundsException: Index 200 out of bounds for length 5
+        // ArrayIndexOutOfBoundsException: "Index 200 out of bounds for length 5", nos ha dicho el compilador.
         catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Ha habido una asignación de un valor a un índice fuera del rango de esa matriz");
             System.out.println("Mensaje de error: " + e.getMessage()); 
